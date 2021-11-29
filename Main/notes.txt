@@ -1,0 +1,3 @@
+vcpkg packages:
+sdl2:x64-windows
+boost-test:x64-windows
