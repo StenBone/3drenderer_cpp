@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="CppUtils.hpp" />
     <ClInclude Include="ExampleTest.hpp" />
+    <ClInclude Include="Main.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-tidy" />
