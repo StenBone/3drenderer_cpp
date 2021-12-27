@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 /** Rule of 5, required if you are manually managing memory.  */
 /** 
