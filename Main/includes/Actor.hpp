@@ -1,7 +1,8 @@
 #pragma once
+#include "SFML/Graphics.hpp"
 
 namespace bengine {
-	class Actor { // todo inherit from sf drawable and transformable
+	class Actor : sf::Drawable, sf::Transformable {
 	public:
 		virtual ~Actor() {}
 	};
