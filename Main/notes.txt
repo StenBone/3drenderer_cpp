@@ -1,3 +1,6 @@
 vcpkg packages:
 sdl2:x64-windows
 boost-test:x64-windows
+
+Current Goal: Create a solid simple first pass at a game engine framework
+Future Goals: Bring in reliable 3D party libraries such as ImGUI to replace and enhance the foundation.
