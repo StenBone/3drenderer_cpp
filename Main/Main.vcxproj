@@ -161,14 +161,18 @@
     <ClInclude Include="includes\ExampleTest.hpp" />
     <ClInclude Include="includes\Game.hpp" />
     <ClInclude Include="includes\GUID.hpp" />
+    <ClInclude Include="includes\InputCode.hpp" />
+    <ClInclude Include="includes\InputManager.hpp" />
     <ClInclude Include="includes\Renderer.hpp" />
     <ClInclude Include="includes\Scene.hpp" />
+    <ClInclude Include="src\InputCode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="includes\Game.cpp" />
     <ClCompile Include="src\3d_renderer.cpp" />
     <ClCompile Include="src\Actor.cpp" />
     <ClCompile Include="src\GUID.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
     <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\Scene.cpp" />
   </ItemGroup>
