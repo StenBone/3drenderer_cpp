@@ -2,6 +2,7 @@ vcpkg packages:
 sdl2:x64-windows
 boost-test:x64-windows
 
+todo rip out bengine, devote to own project/library
 
 
 Current Goal: Create a solid simple first pass at a game engine framework. Graphics, Input, Sound, Game Logic
