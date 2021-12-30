@@ -4,6 +4,8 @@ boost-test:x64-windows
 
 todo rip out bengine, devote to own project/library
 
+reminders:
+pure virtual functions have "= 0" after their declaration. These classes cannot be instantiated.
 
 Current Goal: Create a solid simple first pass at a game engine framework. Graphics, Input, Sound, Game Logic
 Future Goals: 
