@@ -35,13 +35,13 @@ public:
 		return *this;
 	}
 	// move constructor
-	RAIIPrinter(RAIIPrinter&& to_move) { // rvalue reference declarator(&&)
+	RAIIPrinter(RAIIPrinter&& to_move) noexcept { // rvalue reference declarator(&&)
 		std::cout << "RAIIPrinter(RAIIPrinter &&)" << std::endl;
 		elements = to_move.elements;
 		to_move.elements = nullptr;
 	}
 	// move assignment operator
-	RAIIPrinter &operator=(RAIIPrinter&& to_move) {
+	RAIIPrinter &operator=(RAIIPrinter&& to_move) noexcept {
 		std::cout << "RAIIPrinter &operator=(RAIIPrinter &&)" << std::endl;
 		delete[] elements;
 		elements = to_move.elements;
