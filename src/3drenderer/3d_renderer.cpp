@@ -3,6 +3,10 @@
 #include <SFML/Graphics.hpp>
 
 const GLint WIDTH = 800, HEIGHT = 600;
+
+// shaders
+const GLchar* vertexShaderSource = "#version 330 core\n";
+
 int main() {
 	sf::ContextSettings settings;
 	settings.depthBits = 24;
